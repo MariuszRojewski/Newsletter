@@ -1,0 +1,49 @@
+body{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{margin: 0px; padding: 0 20px}
+
+form {
+  margin: 0 20px
+}
+
+label {
+  display: block;
+}
+
+input{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+input[type="checkbox"] {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+button {
+  display: block;
+  max-width: 200px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+span {
+  color: red;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.formular {
+  height: auto;
+  width: max-content;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 25px;
+}
